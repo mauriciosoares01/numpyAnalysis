@@ -57,7 +57,7 @@ def matricialSum(matrix):
         #print(sumTimes[j])
 
 #insert in csv
-def insertCsv(array):
+def insertCsv(array,totalTime):
     
     w.writerow(["Block process times"])
 
@@ -65,6 +65,7 @@ def insertCsv(array):
         w.writerow([i, array[i]])
     
     w.writerow(["....."])
+    w.writerow(["TOTAL",totalTime])
 
 #----------------------------MAIN CODE--------------------------------------
 
@@ -73,19 +74,19 @@ def insertCsv(array):
 # for i in range(numBlocks):
 #     totalTimetranspose = totalTimetranspose + transposeTimes[i]
 # print(totalTimetranspose)
-# insertCsv(transposeTimes)
+# insertCsv(transposeTimes, totalTimetranspose)
 
 ##product operations
 # matricialProduct(m)
 # for i in range(numBlocks):
 #     totalTimeProduct = totalTimeProduct + productTimes[i]
 # print(totalTimeProduct)
-# insertCsv(productTimes)
+# insertCsv(productTimes, totalTimeProduct)
 
 #sum operations
 matricialSum(numBlocks)
 for i in range(100):
     totalTimeSum = totalTimeSum + sumTimes[i]
 print(totalTimeSum)
-insertCsv(sumTimes)
+insertCsv(sumTimes, totalTimeSum)
 
