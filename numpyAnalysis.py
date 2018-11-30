@@ -62,7 +62,7 @@ def insertCsv(array,totalTime):
     w.writerow(["Block process times"])
 
     for i in range(numBlocks):
-        w.writerow([i, array[i]])
+        w.writerow([i+1, array[i]])
     
     w.writerow(["....."])
     w.writerow(["TOTAL",totalTime])
