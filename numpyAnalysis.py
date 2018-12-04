@@ -4,7 +4,7 @@
 #
 # Analysis of NumPy library in transpose, matricial product and matricial 
 # sum operations, using a 100x100 matrix. Number of operations is equal to 100 mi,
-# divided in 100 blocks of 100 operations.
+# divided in 100 blocks of 1000000 operations.
 
 import numpy as np
 import time
