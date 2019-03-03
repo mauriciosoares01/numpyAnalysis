@@ -1,11 +1,9 @@
-NumPy Analysis
- 
-author: Maurício Silva Soares
+<h1>NumPy Analysis</h1>
 
-Analysis of NumPy library in transpose, matricial product and matricial 
+<p>Analysis of NumPy library in transpose, matricial product and matricial 
 sum operations, using a 100x100 matrix. Number of operations is equal to 100 mi,
-divided in 100 blocks of 1000000 operations.
+divided in 100 blocks of 1000000 operations.</p>
 
-The time values for each operations blocks is stored in a .cvs file("times").
+<p>The time values for each operations blocks is stored in a .cvs file("times").
 To run the code uncomment the operation in MAIN CODE. Run one operation at time.
-You can easily edit or add a operation to analyze the running time.
+You can easily edit or add a operation to analyze the running time.</p>
