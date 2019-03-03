@@ -1,3 +1,6 @@
+<head>
+</head>
+<body>
 <h1>NumPy Analysis</h1>
 
 <p>Analysis of NumPy library in transpose, matricial product and matricial 
@@ -7,3 +10,4 @@ divided in 100 blocks of 1000000 operations.</p>
 <p>The time values for each operations blocks is stored in a .cvs file("times").
 To run the code uncomment the operation in MAIN CODE. Run one operation at time.
 You can easily edit or add a operation to analyze the running time.</p>
+</body>
